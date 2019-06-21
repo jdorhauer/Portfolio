@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Jacob Dorhauer's Portfolio</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    
+    <div class="navigation">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Welcome!
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#header">Welcome</a>
+                <a class="dropdown-item" href="#about">About</a>
+                <a class="dropdown-item" href="#projects">Projects</a>
+                <a class="dropdown-item" href="#contact">Contact Me</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Header -->
+
+    <a id="header">
+        <div class="header">
+            <div class="heading">
+                <div class="head">
+                    <h1>Jacob Dorhauer</h1>
+                    <br>
+                    <h4>.Net Developer</h4>
+                    <div class="links">
+                        <a href="https://github.com/jdorhauer" target="blank"><img src="assets/github.png" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/jacob-dorhauer-087955b9/" target="blank"><img src="assets/linkedin.png" alt="linkedIn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <!-- About -->
+
+        <div class="about">
+            <a id="about">
+                <div class="aboutMe">
+                    <h3>A little bit about me</h3>
+                    <p>From the moment I built my first "Hello World" application, I was hooked on the thought of becoming a developer. I fell into a lot of familiar routines in my work life. Software Development was a refreshing challenge. After studying on my own for about 8 months, I decided it was time to make a leap. That is when I started an accelerated program at Eleven Fifty Academy. I am currently working my way through that course. When I am not working at the computer, I am with my wife and two daughters or else either watching or playing hockey. We spend a lot of time in state parks here and in the St. Louis area, where I grew up. I am excited to leap into this career, as well as the chance to learn and grow as an individual and a developer. It is a lot of fun and is a challenge that I have been craving for a long time in my professional life.</p>
+                </div>
+                <div class="familiarTech">
+                    <img src="assets/DotNet.png" alt="DotNet">
+                    <img src="assets/CSharp.jpg" alt="CSharp">
+                    <img src="assets/sql.png" alt="SQL">
+                    <img src="assets/htmlIcon.png" alt="HTML">
+                    <img src="assets/cssIcon.png" alt="CSS">
+                    <img src="assets/swift.png" alt="Swift">
+                    <img src="assets/bootstrap.jpg" alt="Bootstrap">
+                </div>
+                <div class="resume">
+                    <!-- link to resume here -->
+                </div>
+            </a>
+        </div>
+        <div class="clearfix"></div>
+
+    <!-- Projects -->
+
+        <div class="projects">
+            <h3>My Projects</h3>
+            <div class="project_list">
+                <a href="https://codepen.io/jdorhauer/pen/NVJoeQ" target="blank"><img src="assets/codePenProject.png"</a>
+            </div>
+        </div>
+    
+    <!-- Contact me -->
+
+    <form id="contact" action="//formspree.io/jdorhauer@yahoo.com" method="POST">
+        <div class="contactHead">
+            <h3>Contact me</h3>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Full Name">
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" name="_replyto" placeholder="Your Email">
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" name="message" placeholder="Message" rows="3"></textarea>
+        </div>
+        <div class="submit">
+            <input class="btn btn-primary" type="submit" value="Send">
+        </div>
+        <input type="hidden" name="_subject" value="Website contact" />
+    </form>
+    
+    <!-- Footer -->
+
+    <div class="footer">
+        <p><i>All trademarks are the property of their respective owners</i></p>
+        <p><i>Disclaimer: This portfolio is my work and was not made with a template.</i></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
