@@ -99,6 +99,15 @@ body{
     clear: both;
 }
 
+.project_list{
+    width: 100%;
+}
+
+.project_list img{
+    width: 25%;
+    height: 200px;
+}
+
 #contact{
     margin: 2em 2em 2em 2em;
     padding: 1em 1em 1em 1em;
