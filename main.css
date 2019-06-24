@@ -99,35 +99,22 @@ body{
     clear: both;
 }
 
-.listOfProjects{
-    display: inline;
-    margin-left: 2em;
+.project{
     text-align: center;
 }
 
-.project_list{
-    margin-top: 3em;
-    width: 100%;
+.myProjectList{
+    list-style-type: none;
 }
 
-.codePen{
-    float: left;
-    margin-left: 8em;
-    margin-right: -25em;
+.myProjectList li{
+    display: inline;
+    margin: center;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
-.staticStore{
-    float: none;
-}
-
-.consoleChallenge{
-    float: right;
-    margin-left: -17em;
-    margin-right: 5em;
-    margin-top: -12em;
-}
-
-.project_list img{
+.myProjectList img{
     text-decoration: none;
     width: 200px;
     height: 150px;
