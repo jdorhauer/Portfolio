@@ -115,7 +115,7 @@ body{
     clear: both;
 }
 
-.myProjects h3{
+.myProjects{
     text-align: center;
 }
 
@@ -126,7 +126,7 @@ body{
 
 .content{
     color: #716969;
-    height: 35em;
+    height: 40em;
 }
 
 .table{
