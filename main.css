@@ -76,7 +76,7 @@ body{
 }
 
 .about{
-    display: inline;
+    display: inline-flex;
     padding-top: 4.5em;
 }
 
@@ -89,7 +89,7 @@ body{
 .aboutMe{
     float: left;
     text-align: center;
-    margin: 2em 2em 2em 2em;
+    margin: 1em 1em 1em 2em;
     width: 40%;
     padding: 1em 1em 1em 1em;
     border: 2px solid #716969;
@@ -99,7 +99,7 @@ body{
     float: right;
     text-align: center;
     width: 40%;
-    margin: 2em 2em 2em 2em;
+    margin: 1em 2em 1em 1em;
 }
 
 .familiarTech img{
