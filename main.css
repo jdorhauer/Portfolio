@@ -76,8 +76,6 @@ body{
 }
 
 .about{
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     padding-top: 4.5em;
 }
@@ -92,7 +90,7 @@ body{
     float: left;
     text-align: center;
     margin: 1em 1em 1em 2em;
-    width: 40%;
+    width: 35%;
     padding: 1em 1em 1em 1em;
     border: 2px solid #716969;
 }
@@ -100,7 +98,7 @@ body{
 .familiarTech{
     float: right;
     text-align: center;
-    width: 40%;
+    width: 35%;
     margin: 1em 2em 1em 1em;
 }
 
@@ -223,14 +221,12 @@ body{
     height: 3.25em;
     width: 100%;
     background-color: #2D2E2Ede;
-    display: flex;
-    flex-direction: column;
 }
 
 .footer p{
     height: 1em;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin-bottom: 1.5em;
     color: white;
 }
