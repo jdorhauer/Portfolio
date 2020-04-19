@@ -115,6 +115,14 @@ body{
     clear: both;
 }
 
+.centerThis{
+    text-align: center;
+}
+
+.resume{
+    margin: 2em;
+}
+
 .myProjects{
     text-align: center;
 }
