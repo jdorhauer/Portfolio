@@ -80,6 +80,10 @@ body{
     padding-top: 4.5em;
 }
 
+#about{
+    text-align: center;
+}
+
 .about > a > h3{
     text-align: center;
     padding-top: 3em;
