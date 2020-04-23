@@ -218,13 +218,14 @@ body{
 }
 
 .form-group{
-    margin-left: 25%;
-    width: 50%;
+    margin: auto;
+    margin-bottom: 1em;
+    width: 55%;
 }
 
 .submit{
     width: 5%;
-    margin-left: 48%;
+    margin: auto;
 }
 
 .footer{
