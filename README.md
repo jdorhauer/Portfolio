@@ -2,7 +2,7 @@
 
 ## About
 
-This project is where I house the code for my portfolio. Navigate [here](https://jdorhauer.github.io) to view the live version. While front end development is not my spectialty, I am constantly trying to evaluate and tweak this to make it better. If you have any suggestions, feel free to submit them in a form in the bottom of the page!
+This project is where I house the code for my portfolio. Navigate [here](https://dorhauertech.dev) to view the live version. While front end development is not my spectialty, I am constantly trying to evaluate and tweak this to make it better. If you have any suggestions, feel free to submit them in a form in the bottom of the page!
 
 
 ## Changes to come
