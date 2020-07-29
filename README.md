@@ -7,4 +7,4 @@ This project is where I house the code for my portfolio. Navigate [here](https:/
 
 ## Changes to come
 
-I am looking into buying a domain to host this site. Ideally, it would give me the opportunity to not only host my portfolio, but offer an option to host live versions of my projects.
+I am looking to offer an option to host live versions of my projects. The main thing I am researching is a cheaper option for back end hosting than what I have found so far.
