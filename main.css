@@ -250,24 +250,19 @@ body{
         float: none;
         width: 100%;
         font-size: 1.2em;
-    }
-
-    .header{
-        margin-left: .35em;
-    }
-
-    .about{
-        margin-left: .75em;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .content{
         height: auto;
-        margin-left: .75em;
+        width: 95%;
+        margin-left: 2.5%;
     }
 
     #contact{
         width: 90%;
-        margin-left: 1.5em;
+        margin-left: 5%;
     }
 
     .form-group{
