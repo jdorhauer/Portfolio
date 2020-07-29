@@ -244,3 +244,41 @@ body{
     margin-bottom: 1.5em;
     color: white;
 }
+
+@media screen and (max-width: 900px){
+    .navigation, .header, .about, .myProjects, #contact, .footer{
+        float: none;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .header{
+        margin-left: .35em;
+    }
+
+    .about{
+        margin-left: .75em;
+    }
+
+    .content{
+        height: auto;
+        margin-left: .75em;
+    }
+
+    #contact{
+        width: 90%;
+        margin-left: 1.5em;
+    }
+
+    .form-group{
+        width: 90%;
+    }
+
+    #p1{
+        margin-bottom: 2em;
+    }
+
+    #p2{
+        margin-bottom: 2em;
+    }
+}
