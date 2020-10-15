@@ -2,12 +2,12 @@
     position: fixed;
     z-index: 1;
     width: 100%;
-    background-color: #BCABAEf5;
+    background-color: #3a3b3b;
     height: 4.5em;
 }
 
 #dropdownMenuButton{
-    background-color: #2A1F2D;
+    background-color:#2D2E2E;
 }
 
 .dropdown{
@@ -15,11 +15,11 @@
 }
 
 .dropdown-menu{
-    background-color: #D5CAD6;
+    background-color:  #3a3b3b;
 }
 
 .dropdown-item{
-    color: #716969;
+    color: #FBFBFB;
 }
 
 html {
@@ -108,7 +108,12 @@ body{
     border: 2px solid #716969;
 }
 
+#familiarTech{
+    text-align: center;
+}
+
 .familiarTech{
+    padding-top: 4.5em;
     text-align: center;
     width: 85%;
     margin: auto;

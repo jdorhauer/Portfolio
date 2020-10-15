@@ -23,6 +23,7 @@
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#header">Welcome</a>
                 <a class="dropdown-item" href="#about">About</a>
+                <a class="dropdown-item" href="#familiarTech">Familiar Technologies</a>
                 <a class="dropdown-item" href="#projects">Projects</a>
                 <a class="dropdown-item" href="#contact">Contact Me</a>
             </div>
@@ -75,6 +76,8 @@
                         tricks from. It is a lot of fun and is a challenge that I have been craving for a long time in
                         my professional life.</p>
                 </div>
+            </a>
+            <a id="familiarTech">
                 <div class="familiarTech">
                     <h3>Familiar Technologies</h3>
                     <br>
@@ -285,17 +288,17 @@
     <script>
         // Target the button click
         $('button').click(function (e) {
-        // toggle the flip class for only that card
-        $(this).parent('.flipCardFront').parent('.flipCardInner').parent('.flipCard').toggleClass('flipped')
+            // toggle the flip class for only that card
+            $(this).parent('.flipCardFront').parent('.flipCardInner').parent('.flipCard').toggleClass('flipped')
         });
     </script>
-    
+
     <!-- Script to turn the cards back to the front -->
     <script>
         // Target the button click
         $('button').click(function (e) {
-        // toggle the flip class for only that card
-        $(this).parent('.flipCardBack').parent('.flipCardInner').parent('.flipCard').toggleClass('flipped')
+            // toggle the flip class for only that card
+            $(this).parent('.flipCardBack').parent('.flipCardInner').parent('.flipCard').toggleClass('flipped')
         });
     </script>
 
