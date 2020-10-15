@@ -3,7 +3,7 @@
     z-index: 1;
     width: 100%;
     background-color: #3a3b3b;
-    height: 3.5em;
+    height: 3.4em;
 }
 
 #dropdownMenuButton{
@@ -200,8 +200,6 @@ body{
     backface-visibility: hidden;
   }
   
-  
-  
   .flipCardBack {
     transform: rotateY(180deg);
   }
@@ -265,6 +263,10 @@ body{
     #contact{
         width: 90%;
         margin-left: 5%;
+    }
+
+    .submit{
+        margin-left: 40%;
     }
 
     .form-group{
