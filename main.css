@@ -176,7 +176,7 @@ body{
     height: 27em;
     width: 15em;
     perspective: 1000px;
-    margin: .125em;
+    margin: auto;
   }
   
   .flipCardInner {
