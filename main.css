@@ -3,7 +3,7 @@
     z-index: 1;
     width: 100%;
     background-color: #3a3b3b;
-    height: 4.5em;
+    height: 3.5em;
 }
 
 #dropdownMenuButton{
@@ -11,7 +11,7 @@
 }
 
 .dropdown{
-    padding: 1em 1em 1em 1em;
+    padding: .5em .5em .5em .5em;
 }
 
 .dropdown-menu{
@@ -86,7 +86,7 @@ body{
 }
 
 .about{
-    padding-top: 4.5em;
+    padding-top: 3.5em;
 }
 
 #about{
@@ -113,7 +113,7 @@ body{
 }
 
 .familiarTech{
-    padding-top: 4.5em;
+    padding-top: 5.2em;
     text-align: center;
     width: 85%;
     margin: auto;
@@ -207,7 +207,7 @@ body{
   }
 
 #contact{
-    margin: 4em 2em 2em 2em;
+    margin: 3em 2em 2em 2em;
     padding: 1em 1em 1em 1em;
     border: 2px solid #716969;
     height: 25em;
