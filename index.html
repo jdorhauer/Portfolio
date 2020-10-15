@@ -114,7 +114,7 @@
                                     src="assets/storeFront.png" alt="Static HTML Page" title="Static HTML Page"
                                     width="200px" height="150px"></a>
                             <h3>Static HTML Store Front</h3>
-                            <button class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
+                            <button id="1" class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
                         </div>
                         <div class="flipCardBack">
                             <p>This was one of my first projects in HTML and CSS. The goal of the project is a static
@@ -133,7 +133,7 @@
                                     src="assets/consoleChallenges.png" alt="C# Console Apps" title="C# Console Apps"
                                     width="200px" height="150px"></a>
                             <h3>C# Console Challenges</h3>
-                            <button class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
+                            <button id="2" class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
                         </div>
                         <div class="flipCardBack">
                             <p>These challenges are responses to prompts included in the text file in each base
@@ -150,7 +150,7 @@
                                     src="assets/MVC_Ex.png" alt="*Current* ASP.NET App"
                                     title="*Current Project* ASP App" width="200px" height="150px"></a>
                             <h3>Stat Tracking Application</h3>
-                            <button class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
+                            <button id="3" class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
                         </div>
                         <div class="flipCardBack">
                             <p>This application is a little more complicated. It is an application built with
@@ -170,7 +170,7 @@
                                     title="*Current Project* Angular/WebAPI Application" width="200px"
                                     height="150px"></a>
                             <h3>MusicQeary</h3>
-                            <button class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
+                            <button id="4" class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
                         </div>
                         <div class="flipCardBack">
                             <p>This was a group project that I helped to develop. We created an application that
@@ -190,7 +190,7 @@
                                     src="assets/CalculatorApp.png" alt="Simple Calculator" title="Simple Calculator"
                                     width="200px" height="150px"></a>
                             <h3>Simple Calculator</h3>
-                            <button class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
+                            <button id="5" class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
                         </div>
                         <div class="flipCardBack">
                             <p>This project is my first attempt to build a project using Windows Presentation
@@ -207,7 +207,7 @@
                             <img src="assets/piggyback.jpeg" alt="Piggyback Finance App" title="Piggyback Finance App"
                                 width="200px" height="150px">
                             <h3>Piggyback Finance App</h3>
-                            <button class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
+                            <button id="6" class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
                         </div>
                         <div class="flipCardBack">
                             <p>This is a freelance project I have been developing with a startup team. I have
@@ -227,7 +227,7 @@
                             <img src="assets/CampusCafe1.png" onclick="window.open('assets/CampusCafe1.png', '_blank');"
                                 alt="Campus Cafe" title="Campus Cafe" width="200px" height="150px">
                             <h3>System Front End Work</h3>
-                            <button class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
+                            <button id="7" class="btn btn-primary flip-toggle" onclick="flipCard(this)">Click</button>
                         </div>
                         <div class="flipCardBack">
                             <p>As part of my job with Eleven Fifty Academy, I have performed updates to the
@@ -281,9 +281,21 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    <script>$('button').click(function (e) {
-            // toggle the flip class
-            $('.flipCard').toggleClass('flipped')
+    <!-- Script to flip the cards to expose the backs -->
+    <script>
+        // Target the button click
+        $('button').click(function (e) {
+        // toggle the flip class for only that card
+        $(this).parent('.flipCardFront').parent('.flipCardInner').parent('.flipCard').toggleClass('flipped')
+        });
+    </script>
+    
+    <!-- Script to turn the cards back to the front -->
+    <script>
+        // Target the button click
+        $('button').click(function (e) {
+        // toggle the flip class for only that card
+        $(this).parent('.flipCardBack').parent('.flipCardInner').parent('.flipCard').toggleClass('flipped')
         });
     </script>
 
