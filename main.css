@@ -93,7 +93,7 @@ body{
     text-align: center;
 }
 
-.about > a > h3{
+.navPadding{
     text-align: center;
     padding-top: 3em;
     padding-bottom: 1em;
@@ -108,12 +108,24 @@ body{
     border: 2px solid #716969;
 }
 
+.techPadding{
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
 #familiarTech{
     text-align: center;
 }
 
 .familiarTech{
-    padding-top: 5.2em;
+    background-image: url('assets/familiarTechBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    margin-top: 1.5em;
+    padding-bottom: 2em;
     text-align: center;
     width: 85%;
     margin: auto;
@@ -148,6 +160,10 @@ body{
 .myProjects > a > h3{
     padding-top: 3em;
     padding-bottom: 1em;
+}
+
+#projects > p {
+    margin-bottom: 2.5em;
 }
 
 .content{
