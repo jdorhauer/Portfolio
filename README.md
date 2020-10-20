@@ -7,4 +7,4 @@ This project is where I house the code for my portfolio. Navigate [here](https:/
 
 ## Changes to come
 
-I am looking to offer an option to host live versions of my projects. The main thing I am researching is a cheaper option for back end hosting than what I have found so far.
+I am looking to offer an option to host live versions of the projects contained in this portfolio. The main thing I am researching is a cheaper option for back end hosting than what I have found so far.
