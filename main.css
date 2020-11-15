@@ -270,6 +270,15 @@ body{
         margin-right: 0;
     }
 
+    .dropdown > button {
+        font-size: 1.2em;
+    }
+
+    .dropdown-menu > a {
+        font-size: 1.5em;
+        margin-bottom: 5%;
+    }
+
     .content{
         height: auto;
         width: 95%;
